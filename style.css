@@ -1,0 +1,86 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin: 0;
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: orange;
+    color: #1e3a8a;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #1e3a8a;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #CCC;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+tr:nth-child(odd) {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+ul li {
+    list-style-type: none;
+}
